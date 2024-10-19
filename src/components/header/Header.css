@@ -1,0 +1,24 @@
+.app-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #ffffffbd;
+  padding: 16px 0;
+
+
+  h1, h2 {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-style: italic;
+    color: #686868;
+  }
+
+  a {
+    color: green;
+  }
+}
