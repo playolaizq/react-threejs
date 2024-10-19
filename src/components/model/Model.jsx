@@ -1,5 +1,10 @@
+import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useAnimations, useGLTF } from '@react-three/drei';
+
+Model.propTypes = {
+  modelUrl: PropTypes.string.isRequired,
+};
 
 function Model({ modelUrl }) {
   const gltf = useGLTF(modelUrl);

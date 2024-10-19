@@ -33,6 +33,7 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/no-unknown-property': 'off' // Disabled due to incompatibility with @react-three
     },
   },
 ]
