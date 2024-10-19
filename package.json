@@ -1,6 +1,10 @@
 {
   "name": "react-threejs",
-  "private": true,
+  "description": "React + Three.js example using Littlest Tokyo by Glen Fox",
+  "author": {
+    "name": "playolaizq",
+    "url": "https://github.com/playolaizq"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {

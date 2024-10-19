@@ -16,9 +16,15 @@ function App() {
       <Header />
       <Canvas>
         <ambientLight intensity={1} />
+        <hemisphereLight intensity={0.65} />
+        <directionalLight
+          intensity={3}
+          position={[10, 10, 2]}
+          castShadow={true}
+        />
         <PerspectiveCamera
-          makeDefault
-          position={[0, 150, 750]}
+          makeDefault={true}
+          position={[0, 350, 850]}
           near={100}
           far={3000}
         />
